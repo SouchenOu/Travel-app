@@ -5,12 +5,12 @@ type ButtonProps ={
     type : 'button' | 'submit' | 'reset' | undefined,
     title : string,
     icon?: string;
-    variant : 'btn_dark_green' | 'btn_custom_color' | 'btn_green'
+    variant : 'btn_dark_green' | 'btn_custom_color' | 'btn_white_text'
 }
 
 const Button = ({type, title, icon, variant} : ButtonProps) => {
   return (
-    <button  className={` flex items-center justify-center rounded-full border ${variant}`} type={type}>
+    <button  className={` flex items-center justify-center rounded-full border gap-3 ${variant}`} type={type}>
         {icon && <Image src={icon} alt="user logo" width={24} height={24}/>}
         <label className='bold-16 whitespace-nowrap'>{title}</label>
     
