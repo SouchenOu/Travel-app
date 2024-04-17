@@ -6,7 +6,7 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between py-500 z-3O  px-16 lg:px-20 3xl:px-100  gap-[10px] w-full' style={{background : '#E3DCD2'}}>
+    <div className='flex items-center justify-between py-500  px-16 lg:px-[50] 3xl:px-100  gap-[10px] w-full' style={{background : '#E3DCD2'}}>
         <Link href="/">
             <Image src="/logo.png" alt="logo" width={200} height={100}/>
            
@@ -17,7 +17,7 @@ const Navbar = () => {
                     ))}
         </ul>
         <div className='lg:flex lg:items-center lg:justify-center'>
-            <Button type="button" title="Login" icon="user.svg" variant="btn_dark_green" />
+            <Button type="button" title="Login" icon="user.svg" variant="btn_custom_color" />
         </div>
         <Image src="menu.svg" alt="menu" width={32} height={32} className='cursor-pointer lg:hidden inline-block'/>
     </div>

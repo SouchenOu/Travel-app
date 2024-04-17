@@ -8,7 +8,7 @@ import Button from './Button'
 const MainPart1 = () => {
   return (
    
-    <section className='px-6 lg:px-20 3xl:px-100 mx-auto w-full flex flex-col gap-[20]  py-[300px] lg:py-[300px] pb-32 md:gap-28 xl:flex-row 'style={{background : '#CC8B65'}}>
+    <section className='px-6 lg:px-20 3xl:px-100  w-full flex flex-col gap-[20]  py-[300px] lg:py-[300px] pb-32 md:gap-28 xl:flex-row 'style={{background : '#CC8B65'}}>
 
         <div className='absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60 '></div>
         <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
@@ -39,7 +39,7 @@ const MainPart1 = () => {
                                 <Image src="/close.svg" alt="close" width={24} height={24}/>
                             
                         </div>
-                        <p className=' items-start text-[20px] font-[700] text-white'> Agues Calientes</p>
+                        <p className='items-start text-[20px] font-[700] text-white'> Agues Calientes</p>
                     </div>
                         <div className='flex items-center justify-between'>
                             <div className='flex flex-col'>
@@ -49,7 +49,6 @@ const MainPart1 = () => {
                             <div className='flex flex-col'>
                                 <p className='text-[16px] font-[400] text-gray-20 block'> Elevation</p>
                                 <p className='text-[20px] font-[700] text-white '>2.040 Km</p>
-
                             </div>
                            
                         </div>
