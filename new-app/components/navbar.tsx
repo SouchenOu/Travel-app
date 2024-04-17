@@ -6,7 +6,7 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between py-5 z-3O relative px-6 lg:px-20 3xl:px-0 max-container gap-[10px]'>
+    <div className='flex items-center justify-between py-500 z-3O  px-16 lg:px-20 3xl:px-100  gap-[10px] w-full' style={{background : '#E3DCD2'}}>
         <Link href="/">
             <Image src="/logo.png" alt="logo" width={200} height={100}/>
            
@@ -26,8 +26,7 @@ const Navbar = () => {
 
 export default Navbar
 
-// #2F4454
-// #2E151B
-// #DA7B93
-// #376E6F
-// #1C3334
+// #E3DCD2
+// #CC8B65
+// #013328
+// #100C0D
