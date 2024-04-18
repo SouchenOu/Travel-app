@@ -6,9 +6,9 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between py-500  px-16 lg:px-[50] 3xl:px-100  gap-[10px] w-full' style={{background : '#E3DCD2'}}>
+    <div className='flex items-center justify-between py-500  px-16 lg:px-[50] 3xl:px-100  gap-[10px] w-full' >
         <Link href="/">
-            <Image src="/logo.png" alt="logo" width={200} height={100}/>
+            <Image src="/1test.png" alt="logo" width={200} height={100}/>
            
         </Link>
         <ul className='hidden h-full gap-12 lg:flex'>
