@@ -1,7 +1,6 @@
 Build and Deploy a Fully Responsive Modern Travel  UI/UX Website | React.js, Next.js 13, Tailwind CSS
 -------------------------------------------------------------------------------------------------
 
-![Screenshot from 2024-04-18 15-53-30](https://github.com/SouchenOu/Travel-app/assets/87101785/5f217dc4-0077-4f72-b925-5f4ab3b8fa76)# travel-app
 
 ![Screenshot from 2024-04-18 15-53-24](https://github.com/SouchenOu/Travel-app/assets/87101785/d9c3240a-d13f-4eca-bc25-6504eea3ed53)
 
