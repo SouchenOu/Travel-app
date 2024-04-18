@@ -1,4 +1,4 @@
-import Camp from "@/components/Camp";
+import CampInfo from "@/components/CampInfo";
 import Features from "@/components/Features";
 import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <MainPart1/>
-      <Camp/>
+      <CampInfo/>
       <Guide/>
       <Features/>
       <GetApp/>
